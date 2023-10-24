@@ -1,0 +1,153 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+height:100%;
+width:100%;
+background-color:black;
+  background-image: url("bs2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.box
+{
+height:100px;
+width:100%;
+background-color:#505256;
+}
+#logo{
+margin:20px;
+height:60px;
+width:60px;
+border-radius:10px;
+box-shadow:5px 5px 10px #272727;
+}
+.circle{
+height:300px;
+width:500px;
+opacity:0.9;
+background-color:black;
+border-radius:200px;
+margin:100px;
+margin-left:450px;
+padding-top:80px;
+padding-left:50px;
+padding-right:50px;
+padding-bottom:100px;
+}
+.input
+{
+color:white;
+height:40px;
+width:200px;
+border:0px;
+border-radius:20px;
+background-color:black;
+margin:10px;
+text-align:center;
+border:2px solid white;
+}
+.button{
+color:#36454F;
+height:40px;
+width:200px;
+border-radius:20px;
+background-color:#FCEDDA;
+margin:10px;
+text-align:center;
+font-size:15px;
+font-weight:bold;
+border:2px solid white;
+}
+h2{
+color:white;
+margin-bottom:20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+margin-right:50px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+margin:20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h1 {
+  font-size:50px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #00FFFF;
+margin:30px;
+}
+h3{
+font-size:30px;
+  font-weight: 600;
+  color:#fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px yellow;
+margin:30px;
+margin-left:550px;
+}
+p{
+color:lightblue;
+}
+.about{
+font-size:40px;
+  font-weight:6500;
+  color:#fbeaeb;
+  text-shadow: 0px 0px 2px #ffe5b4;
+margin:30px;
+}
+.aboutme{
+font-size:30px;
+  font-weight:900;
+  background-image: linear-gradient(113deg, rgb(251, 250, 205) 24.4%, rgb(247, 163, 205) 53.7%, rgb(141, 66, 243) 99.2%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+margin:20px;
+}
+.wed
+{
+display:flex;
+padding:10px;
+margin:60px;
+}
+.shoot{
+margin:20px;
+box-shadow:5px 5px 20px black;
+}
+.quoted {
+  width:100px;
+  height:200px;
+}
+q{
+  font: 2em 'Abril Fatface', cursive;
+  color: #FFF;
+}
+
+cite{
+  font: 2.0em 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: #000;
+  border-top:5px solid #FFF;
+margin:100px;
+  color: red;
+}
